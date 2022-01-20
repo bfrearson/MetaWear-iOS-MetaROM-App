@@ -73,7 +73,7 @@ class ProcessingTests: XCTestCase {
 }
 
 func openCSV(file: String) -> [(Date, Double)] {
-    let bundle = Bundle(identifier: "com.mbientlab.MetaClinicTests")!
+    let bundle = Bundle(identifier: "com.bfrearson.MetaClinicTests")!
     let url = bundle.url(forResource: file, withExtension: "csv")!
     return url.processTheraCSV()
 }
