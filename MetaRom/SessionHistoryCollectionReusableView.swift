@@ -70,7 +70,7 @@ fileprivate func romGraphSetup(_ lineChart: LineChartView, dataSets: [LineChartD
     lineChart.legend.verticalAlignment = .top
     lineChart.legend.horizontalAlignment = .right
     
-    lineChart.chartDescription?.text = nil
+    lineChart.chartDescription.text = nil
     lineChart.rightAxis.enabled = false
     
     let data = LineChartData(dataSets: dataSets)

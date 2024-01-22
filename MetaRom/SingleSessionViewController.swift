@@ -160,7 +160,7 @@ fileprivate func chartSetup(_ lineChart: LineChartView, dataSets: [LineChartData
     lineChart.legend.verticalAlignment = .top
     lineChart.legend.horizontalAlignment = .right
     
-    lineChart.chartDescription?.text = nil
+    lineChart.chartDescription.text = nil
     lineChart.rightAxis.enabled = false
         
     // Add a fat zero line
@@ -188,13 +188,7 @@ fileprivate func targetLine(lineChart: LineChartView, value: Double) {
     ll.lineDashPhase = lineDashPhase
     ll.lineDashLengths = lineDashLengths
     lineChart.leftAxis.addLimitLine(ll)
-    lineChart.legend.extraEntries = [LegendEntry(label: "Target",
-                                                form: Legend.Form.line,
-                                                formSize: 24,
-                                                formLineWidth: 2,
-                                                formLineDashPhase: lineDashPhase,
-                                                formLineDashLengths: lineDashLengths,
-                                                formColor: color)]
+    lineChart.legend.extraEntries = [LegendEntry(label: "Target")]
 }
 
 public extension UIImage {

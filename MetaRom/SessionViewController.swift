@@ -544,7 +544,7 @@ extension SessionViewController: StreamProcessorDelegate {
     }*/
 }
 
-class AlwaysPositiveAxisValueFormatter: IAxisValueFormatter {
+class AlwaysPositiveAxisValueFormatter: AxisValueFormatter {
     func stringForValue(_ value: Double, axis: AxisBase?) -> String {
         return String(format: "%d", Int(abs(value)))
     }
@@ -585,7 +585,7 @@ fileprivate func chartSetup(_ lineChart: LineChartView, dataSets: [LineChartData
     lineChart.legend.verticalAlignment = .top
     lineChart.legend.horizontalAlignment = .right
     
-    lineChart.chartDescription?.text = nil
+    lineChart.chartDescription.text = nil
     lineChart.rightAxis.enabled = false
     
     // Square up the scaling

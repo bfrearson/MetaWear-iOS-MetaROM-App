@@ -1,0 +1,14 @@
+${PODS_ROOT}/Target Support Files/Pods-MetaRom/Pods-MetaRom-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Bolts-Swift/BoltsSwift.framework
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/CircularSlider/CircularSlider.framework
+${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/Instructions/Instructions.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MetaWear/MetaWear.framework
+${BUILT_PRODUCTS_DIR}/RMessage/RMessage.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework
+${BUILT_PRODUCTS_DIR}/Zip/Zip.framework

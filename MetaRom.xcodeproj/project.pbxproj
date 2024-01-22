@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19699945E13FD42289CC1227 /* Pods_MetaRom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295D76A33DDB442842DF88E3 /* Pods_MetaRom.framework */; };
 		4000EE26212D1C7200AD5B6C /* Date+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4000EE25212D1C7200AD5B6C /* Date+TimeAgo.swift */; };
 		400B2DBC20C1FDC4009DF923 /* AddEditPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B2DBB20C1FDC3009DF923 /* AddEditPatientViewController.swift */; };
 		40220A7822D50B1E00C88A06 /* RoutineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40220A7722D50B1E00C88A06 /* RoutineConfig.swift */; };
@@ -53,12 +54,11 @@
 		40EBB701215550EB00787A5C /* LightStatusBarNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBB700215550EB00787A5C /* LightStatusBarNavigationController.swift */; };
 		40F72BD721112D07003C2E7F /* ExerciseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F72BD621112D07003C2E7F /* ExerciseConfig.swift */; };
 		40F72BD92111F449003C2E7F /* SessionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F72BD82111F449003C2E7F /* SessionCollectionViewCell.swift */; };
-		5F432A7D4070A7D40445AE6D /* Pods_MetaRom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F0DC180BD880411C0240A5 /* Pods_MetaRom.framework */; };
+		AB070223C6B4858D35446F32 /* Pods_MetaRomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEBC04CA5FB1005574262E2 /* Pods_MetaRomTests.framework */; };
 		AB82EEE725C0A48300ECE5F2 /* BlueSensorSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82EEE625C0A48300ECE5F2 /* BlueSensorSessionViewController.swift */; };
 		AB82EEEF25C0C37900ECE5F2 /* GreenSensorSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82EEEE25C0C37900ECE5F2 /* GreenSensorSessionViewController.swift */; };
 		AB86912E25603B6B0035949E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB86912D25603B6B0035949E /* Colors.xcassets */; };
 		AB86913625605AC10035949E /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB86913525605AC10035949E /* AppIcon.xcassets */; };
-		CCC1602DC9C2A5A4811ACC53 /* Pods_MetaRomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA0FEBB819293201FE57F6A /* Pods_MetaRomTests.framework */; };
 		D0DF404D2149BF29005EE04C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DF404C2149BF29005EE04C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -73,9 +73,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07F0DC180BD880411C0240A5 /* Pods_MetaRom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaRom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		081F791137FE1DB81944045D /* Pods-TheragoniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheragoniTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheragoniTests/Pods-TheragoniTests.debug.xcconfig"; sourceTree = "<group>"; };
-		334D4A8AC3B9E1FF429E52A5 /* Pods-MetaRom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaRom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetaRom/Pods-MetaRom.debug.xcconfig"; sourceTree = "<group>"; };
+		295D76A33DDB442842DF88E3 /* Pods_MetaRom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaRom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AEBC04CA5FB1005574262E2 /* Pods_MetaRomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaRomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C003281CC611D3BD7198DB0 /* Pods-MetaRomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaRomTests.release.xcconfig"; path = "Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests.release.xcconfig"; sourceTree = "<group>"; };
 		4000EE25212D1C7200AD5B6C /* Date+TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+TimeAgo.swift"; sourceTree = "<group>"; };
 		400B2DBB20C1FDC3009DF923 /* AddEditPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditPatientViewController.swift; sourceTree = "<group>"; };
 		40220A7722D50B1E00C88A06 /* RoutineConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineConfig.swift; sourceTree = "<group>"; };
@@ -128,18 +128,14 @@
 		40EBB700215550EB00787A5C /* LightStatusBarNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightStatusBarNavigationController.swift; sourceTree = "<group>"; };
 		40F72BD621112D07003C2E7F /* ExerciseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseConfig.swift; sourceTree = "<group>"; };
 		40F72BD82111F449003C2E7F /* SessionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCollectionViewCell.swift; sourceTree = "<group>"; };
-		49752E4530F3CFBE1832394F /* Pods-MetaRomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaRomTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests.release.xcconfig"; sourceTree = "<group>"; };
-		557B597E7CD0FCF8752B7794 /* Pods-Theragoni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Theragoni.release.xcconfig"; path = "Pods/Target Support Files/Pods-Theragoni/Pods-Theragoni.release.xcconfig"; sourceTree = "<group>"; };
-		599625C35694F30C54D2F824 /* Pods-MetaRomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaRomTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests.debug.xcconfig"; sourceTree = "<group>"; };
-		742438D1FDD5356878BCC2A7 /* Pods-TheragoniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheragoniTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheragoniTests/Pods-TheragoniTests.release.xcconfig"; sourceTree = "<group>"; };
-		90F0AC8E45439B067E47DD3A /* Pods-Theragoni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Theragoni.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Theragoni/Pods-Theragoni.debug.xcconfig"; sourceTree = "<group>"; };
+		49E23521F16177A20CDAB355 /* Pods-MetaRom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaRom.release.xcconfig"; path = "Target Support Files/Pods-MetaRom/Pods-MetaRom.release.xcconfig"; sourceTree = "<group>"; };
+		51979AD7EDFD2AFC7425E821 /* Pods-MetaRomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaRomTests.debug.xcconfig"; path = "Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB82EEE625C0A48300ECE5F2 /* BlueSensorSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSensorSessionViewController.swift; sourceTree = "<group>"; };
 		AB82EEEE25C0C37900ECE5F2 /* GreenSensorSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenSensorSessionViewController.swift; sourceTree = "<group>"; };
 		AB86912D25603B6B0035949E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		AB86913525605AC10035949E /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
-		B47E854FC632EB21C38A51D2 /* Pods-MetaRom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaRom.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetaRom/Pods-MetaRom.release.xcconfig"; sourceTree = "<group>"; };
 		D0DF404C2149BF29005EE04C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFA0FEBB819293201FE57F6A /* Pods_MetaRomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaRomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F669C9AD615BAF669533C1BB /* Pods-MetaRom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaRom.debug.xcconfig"; path = "Target Support Files/Pods-MetaRom/Pods-MetaRom.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F432A7D4070A7D40445AE6D /* Pods_MetaRom.framework in Frameworks */,
+				19699945E13FD42289CC1227 /* Pods_MetaRom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,35 +151,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCC1602DC9C2A5A4811ACC53 /* Pods_MetaRomTests.framework in Frameworks */,
+				AB070223C6B4858D35446F32 /* Pods_MetaRomTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02B2754C4CF040DC4354F155 /* Pods */ = {
+		317D266CDE2CAFB75CC2C18E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90F0AC8E45439B067E47DD3A /* Pods-Theragoni.debug.xcconfig */,
-				557B597E7CD0FCF8752B7794 /* Pods-Theragoni.release.xcconfig */,
-				081F791137FE1DB81944045D /* Pods-TheragoniTests.debug.xcconfig */,
-				742438D1FDD5356878BCC2A7 /* Pods-TheragoniTests.release.xcconfig */,
-				334D4A8AC3B9E1FF429E52A5 /* Pods-MetaRom.debug.xcconfig */,
-				B47E854FC632EB21C38A51D2 /* Pods-MetaRom.release.xcconfig */,
-				599625C35694F30C54D2F824 /* Pods-MetaRomTests.debug.xcconfig */,
-				49752E4530F3CFBE1832394F /* Pods-MetaRomTests.release.xcconfig */,
+				F669C9AD615BAF669533C1BB /* Pods-MetaRom.debug.xcconfig */,
+				49E23521F16177A20CDAB355 /* Pods-MetaRom.release.xcconfig */,
+				51979AD7EDFD2AFC7425E821 /* Pods-MetaRomTests.debug.xcconfig */,
+				3C003281CC611D3BD7198DB0 /* Pods-MetaRomTests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		08ACE78BBF28BEB8ADF78EF2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				07F0DC180BD880411C0240A5 /* Pods_MetaRom.framework */,
-				FFA0FEBB819293201FE57F6A /* Pods_MetaRomTests.framework */,
-			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		4048F27320E187E900AAB954 /* Processing */ = {
@@ -251,8 +235,8 @@
 				409D75EE2091670500E7B605 /* MetaRom */,
 				409D76032091670700E7B605 /* MetaRomTests */,
 				409D75ED2091670500E7B605 /* Products */,
-				02B2754C4CF040DC4354F155 /* Pods */,
-				08ACE78BBF28BEB8ADF78EF2 /* Frameworks */,
+				317D266CDE2CAFB75CC2C18E /* Pods */,
+				8E9DA27239711530FB0C992F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -331,6 +315,15 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		8E9DA27239711530FB0C992F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				295D76A33DDB442842DF88E3 /* Pods_MetaRom.framework */,
+				3AEBC04CA5FB1005574262E2 /* Pods_MetaRomTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,11 +331,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 409D76092091670700E7B605 /* Build configuration list for PBXNativeTarget "MetaRom" */;
 			buildPhases = (
-				1EBEE13C2BE920F4D9B4982C /* [CP] Check Pods Manifest.lock */,
+				8841F6E0C7FE0AC91AEA7E76 /* [CP] Check Pods Manifest.lock */,
 				409D75E82091670500E7B605 /* Sources */,
 				409D75E92091670500E7B605 /* Frameworks */,
 				409D75EA2091670500E7B605 /* Resources */,
-				DB7FC191A571B65432E2202C /* [CP] Embed Pods Frameworks */,
+				4CDE2DCC717FAC4B4A9761B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,11 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 409D760C2091670700E7B605 /* Build configuration list for PBXNativeTarget "MetaRomTests" */;
 			buildPhases = (
-				9CBDB8649DE9B1E22E299F4A /* [CP] Check Pods Manifest.lock */,
+				9E5E76B90EAFDDDB465978DB /* [CP] Check Pods Manifest.lock */,
 				409D75FC2091670700E7B605 /* Sources */,
 				409D75FD2091670700E7B605 /* Frameworks */,
 				409D75FE2091670700E7B605 /* Resources */,
-				2680925D1795E28B5F72ACB7 /* [CP] Embed Pods Frameworks */,
+				C97557EA44052146D1CE6063 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -449,60 +442,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1EBEE13C2BE920F4D9B4982C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MetaRom-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2680925D1795E28B5F72ACB7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9CBDB8649DE9B1E22E299F4A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MetaRomTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DB7FC191A571B65432E2202C /* [CP] Embed Pods Frameworks */ = {
+		4CDE2DCC717FAC4B4A9761B8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -517,6 +457,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetaRom/Pods-MetaRom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8841F6E0C7FE0AC91AEA7E76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetaRom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5E76B90EAFDDDB465978DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetaRomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97557EA44052146D1CE6063 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetaRomTests/Pods-MetaRomTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -734,13 +735,13 @@
 		};
 		409D760A2091670700E7B605 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 334D4A8AC3B9E1FF429E52A5 /* Pods-MetaRom.debug.xcconfig */;
+			baseConfigurationReference = F669C9AD615BAF669533C1BB /* Pods-MetaRom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = XXMN7E3GSA;
 				INFOPLIST_FILE = "$(SRCROOT)/MetaRom/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -759,13 +760,13 @@
 		};
 		409D760B2091670700E7B605 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B47E854FC632EB21C38A51D2 /* Pods-MetaRom.release.xcconfig */;
+			baseConfigurationReference = 49E23521F16177A20CDAB355 /* Pods-MetaRom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = XXMN7E3GSA;
 				INFOPLIST_FILE = "$(SRCROOT)/MetaRom/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -784,7 +785,7 @@
 		};
 		409D760D2091670700E7B605 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 599625C35694F30C54D2F824 /* Pods-MetaRomTests.debug.xcconfig */;
+			baseConfigurationReference = 51979AD7EDFD2AFC7425E821 /* Pods-MetaRomTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -811,7 +812,7 @@
 		};
 		409D760E2091670700E7B605 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49752E4530F3CFBE1832394F /* Pods-MetaRomTests.release.xcconfig */;
+			baseConfigurationReference = 3C003281CC611D3BD7198DB0 /* Pods-MetaRomTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
